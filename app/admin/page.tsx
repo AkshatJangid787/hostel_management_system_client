@@ -12,7 +12,7 @@ import { io } from "socket.io-client";
 
 const socketUrl = process.env.NEXT_PUBLIC_API_URL 
   ? process.env.NEXT_PUBLIC_API_URL.replace('/api', '') 
-  : 'http://localhost:5000';
+  : 'https://hostel-management-system-nqgb.onrender.com/api';
 
 import { useAdminStore } from "@/store/useAdminStore";
 
@@ -190,4 +190,4 @@ export default function AdminDashboard() {
 }
 
 
-
+
